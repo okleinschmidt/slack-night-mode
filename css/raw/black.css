@@ -703,8 +703,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .channel_header .blue_on_hover:hover { color: #e6e6e6; }
 
 #client_body:not(.onboarding)::before { background: #222; border-bottom: 1px solid #363636; box-shadow: inset 1px 0 0 0 #222; }
-#client_body:not(.onboarding):not(.feature_global_nav_layout):before{box-sizing:border-box;position:absolute;left:0;right:0;height:8px;border-bottom:1px solid rgba(0,0,0,.1);background:#222;content:'';z-index:200;box-shadow:inset 1px 0 0 0 #e8e8e8}
-
+.menu ul li a:not(.inline_menu_link){display:block;text-decoration:none;padding:0 24px;margin:0;white-space:nowrap;outline:0;background:0 0;color:#2c2d30;}
 .messages_header { color: #e6e6e6; }
 
 .channel_title .channel_name_container .channel_name { color: #e6e6e6; }
