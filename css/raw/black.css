@@ -2259,7 +2259,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #convo_container ts-conversation ts-message.selected .message_content .thread_channel_link { color: #949494; }
 
-#convo_tab .message_input, #convo_tab textarea#msg_text { color: #e6e6e6; }
+#convo_tab .message_input, #convo_tab textarea#msg_text { color: #e6e6e6; background-color: #222;}
 
 #whats_new_tab p { color: #e6e6e6; }
 
